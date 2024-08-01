@@ -4,15 +4,11 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 400px;
-    height: 700px; 
-}
-
 .img-container {
     display: flex;
     width: 530px;
     height: 100vh;
+    position: relative;
 }
 
 .form-container {
@@ -26,7 +22,9 @@ img {
 }
 
 h1 {
-    position: absolute
+    position: absolute;
+    left: 42%;
+    top: 10%;
 }
 
 .container {
