@@ -23,10 +23,23 @@ img {
 
 h1 {
     position: absolute;
-    left: 42%;
     top: 10%;
+    left: 30%;
+    color: white;
+    font-size: 55px;
 }
 
 .container {
     display: flex;
+}
+
+h1::before {
+    content: "";
+    display: inline-block;
+    background-image: url("odin-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
 }
