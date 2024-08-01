@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "norse-bold";
+    src: url("Norse-Bold.woff2") format("woff2");
+}
+
 .img-container {
     display: flex;
     width: 530px;
@@ -26,7 +31,8 @@ h1 {
     top: 10%;
     left: 30%;
     color: white;
-    font-size: 55px;
+    font-size: 85px;
+    font-family: norse-bold;
 }
 
 .container {
