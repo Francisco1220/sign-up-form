@@ -57,6 +57,7 @@ form {
     align-items: center;
     position: relative;
     background-color: white;
+    box-shadow: grey 0px 5px 10px;
 }
 
 .form-section {
