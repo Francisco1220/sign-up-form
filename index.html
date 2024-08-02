@@ -19,32 +19,32 @@
         <div class="form-container">
             <div class="form-section">
                 <p class="p1">Thank you for choosing us.<br>Please complete the form below to create your account.</p>
-                    <form action="">
+                    <form action="" method="get">
                         <h2>Registration</h2>
                         <div class="form-container2">
                             <div class="form-element">
                                     <label for="first-name">FIRST NAME</label>
-                                    <input type="text" id="first-name" name="user_first_name">
+                                    <input type="text" id="first-name" name="user_first_name" pattern="[a-zA-Z]+" placeholder="Bilbo" required>
                             </div>
                             <div class="form-element">
                                 <label for="last-name">LAST NAME</label>
-                                <input type="text" id="last-name" name="user_last_name">
+                                <input type="text" id="last-name" name="user_last_name" pattern="[a-zA-Z]+" placeholder="Baggins" required>
                             </div>
                             <div class="form-element">
                                 <label for="mail">EMAIL</label>
-                                <input type="email" id="mail" name="user_email">
+                                <input type="email" id="mail" name="user_email" placeholder="bilbobaggins@gmail.com" required>
                             </div>
                             <div class="form-element">
                                 <label for="phone-number">PHONE NUMBER</label>
-                                <input type="tel" id="phone-number" name="user_phone_number">
+                                <input type="tel" id="phone-number" name="user_phone_number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="123-456-7890" required>
                             </div>
                             <div class="form-element">
                                 <label for="password">PASSWORD</label>
-                                <input type="password" id="password" name="user_password">
+                                <input type="password" id="password" name="user_password" placeholder="The_1_Ring" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
                             </div>
                             <div class="form-element">
                                 <label for="confirmation">CONFIRM PASSWORD</label>
-                                <input type="password" id="confirmation" name="user_password_confirmation">
+                                <input type="password" id="confirmation" name="user_password_confirmation" placeholder="The_1_Ring" required>
                             </div>
                         </div>
                     </form>

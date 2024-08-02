@@ -139,3 +139,11 @@ label {
 strong {
     color: rgba(95,105,140,255);
 }
+
+input:invalid:not(:placeholder-shown) {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid green;
+}
