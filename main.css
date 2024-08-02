@@ -66,6 +66,7 @@ form {
     height: 100%;
     justify-content: space-evenly;
     background-color: rgba(242, 242, 242, 0.7);
+    border: 4px solid orange;
 }
 
 p {
@@ -100,4 +101,15 @@ h2 {
     position: absolute;
     top: 15px;
     left: 60px
+}
+
+button[type="submit"] {
+    width: fit-content;
+    font-size: 18px;
+    padding: 8px 25px 8px 25px;
+    border-radius: 7px;
+    margin-left: 60px;
+    background-color: rgba(95,105,140,255);
+    border: none;
+    color: white;
 }
