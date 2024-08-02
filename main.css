@@ -147,3 +147,16 @@ input:invalid:not(:placeholder-shown) {
 input:valid {
     border: 2px solid green;
 }
+
+.photo-credit {
+    font-family: "Open Sans";
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    color: white;
+}
+
+a {
+    color: white;
+}
