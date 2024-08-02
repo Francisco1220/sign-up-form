@@ -79,6 +79,10 @@ form {
 
 input {
     width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: "Open Sans"
+
 }
 
 .form-element {
